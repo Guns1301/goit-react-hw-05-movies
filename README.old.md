@@ -26,4 +26,11 @@
 
    Published
 
-8. npm i uuid
+8. npm i axios
+9. npm i react-spinners
+10. npm i react-toastify
+11. npm i @emotion/core
+    11.1 npm i @emotion/react
+    11.2 npm install --save @emotion/css
+12. npm i @material-ui/core
+13. npm i @material-ui/lab
