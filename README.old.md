@@ -14,18 +14,21 @@
 
 6. @import-normalize; - в файл index.css
 
-7. deploy on GH-Pages
-   7.1 npm run build
-   7.2 "homepage": "https://Guns1301.github.io/goit-react-hw-03-phonebook",
+7. deploy on Netlify
+
+   7.1 npm install netlify-cli -g
+   7.2 netlify login
+   7.3 удалить "homepage": "https://Guns1301.github.io/goit-react-hw-03-phonebook",
    7.3 npm run build
-   7.4 npm install --save gh-pages
+   7.4
    7.5 add scripts :
    "predeploy": "npm run build",
-   "deploy": "gh-pages -d build",
+   "deploy": "netlify deploy -p",
    7.6 npm run deploy
 
-   npm install netlify-cli -g
-   netlify login
+   7.7 This folder isn't linked to a site yet
+   ? What would you like to do? + Create & configure a new site
+   ? Team: guns1301's team
 
    Published
 
