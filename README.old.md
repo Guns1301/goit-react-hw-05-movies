@@ -24,6 +24,9 @@
    "deploy": "gh-pages -d build",
    7.6 npm run deploy
 
+   npm install netlify-cli -g
+   netlify login
+
    Published
 
 8. npm i axios
